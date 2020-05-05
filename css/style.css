@@ -1,0 +1,122 @@
+@charset "UTF-8";
+html{
+  font-size: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 4%;
+  background-color: #196989;
+}
+
+body{
+  font-family: "Yu Gothic Medium","游ゴシック　Medium",YuGothic,"游ゴシック体","ヒラギノ角ゴ Pro W3",sans-serif;
+  line-height: 1.7;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  max-width: 100%;
+}
+.logo{
+  width: 300px;
+  margin-top: 14px;
+}
+.main-nav{
+  display: flex;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-top: 10px;
+  list-style: none;
+}
+.main-nav li{
+  margin-left: 36px
+}
+.main-nav a{
+  border-radius: 5px;
+  color: #196989;
+  background-color: white;
+}
+
+.main-nav a:hover{
+  color:#0bd;
+}
+.page-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-title{
+  font-size:5rem;
+  font-family: 'philosopher',serif;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.button:hover{
+  background: #0090aa;
+}
+
+.main-img{
+  width: 70%;
+  margin: 0 auto
+}
+
+.contents{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.sub-title{
+  border-bottom: 2px white solid;
+}
+
+.side-bar{
+  margin-left: 10px;
+}
+
+.banner{
+  margin-top: 30px;
+
+}
+
+.banner a{
+  font-siz
+  color: #196989;
+  background-color: white
+
+}
+
+.banner a:hover{
+  background: #0090aa;
+}
+
+
+@media (max-width:600px) {
+  .logo{
+    width: 50%;
+  }
+  .main-img{
+    width: 330px;
+    }
+  .side-bar{
+    margin-top: 30px;
+  }
+.youtube{
+  width: 330px;
+}
+.main-nav{
+  width: 330px;
+  font-size: 70%;
+}
+
+  .page-header{
+    flex-direction: column;
+  }
+  .contents{
+    flex-direction: column;
+  }
+}
